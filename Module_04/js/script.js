@@ -1,9 +1,9 @@
 let b = prompt('Введите число');
 
 if (b>0) {
-    alert (b);
+    console.log(b);
 } else if (b<0){
-    alert (b*(-1));
+    console.log(b*(-1));
 } else {
-    alert (0);
+    console.log(0);
 }
